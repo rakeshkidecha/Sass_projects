@@ -1,0 +1,87 @@
+@media (max-width: 1399px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+  .w-md-1 {
+    width: 100%;
+  }
+  .w-md-2 {
+    width: 50%;
+  }
+  header {
+    padding: 20px 0;
+  }
+  header nav {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: #1956d0;
+    width: 100%;
+    border-top: 1px solid gray;
+    padding: 10px 0;
+    display: none;
+    z-index: 999;
+  }
+  header nav ul {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  header nav ul li a {
+    margin: 5px 0;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+  }
+  header nav ul .dropdown ul {
+    margin-left: 0;
+  }
+  header .contact-number .toggle {
+    display: block;
+  }
+  .banner::before {
+    display: none;
+  }
+  .banner .banner-img {
+    margin-top: 20px;
+  }
+  .about .about-content {
+    margin: 20px 0 0 0;
+  }
+  .services .services-title p {
+    width: 80%;
+  }
+  .case-study .case-study-title p {
+    width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+  .w-sm-1 {
+    width: 100%;
+  }
+  .talk-to-us .talk-to-us-item {
+    display: block;
+  }
+  .talk-to-us .talk-to-us-item a {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .contact-number a {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=max.css.map */
